@@ -1,5 +1,5 @@
-# Research-in-Dataset
-Netflix Movies and Shows IMdb Scores
+# Netflix Movies and Shows IMdb Scores
+
 This dataset contains structured information about Netflix titles, including movies and TV shows. Each entry provides key attributes such as the title, content type, description, release year, age certification, runtime, IMDb ID, IMDb score, and number of votes.
 
 General Information:
