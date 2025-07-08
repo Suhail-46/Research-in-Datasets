@@ -1,0 +1,89 @@
+Netflix Movies and Shows IMdb Scores
+This dataset contains structured information about Netflix titles, including movies and TV shows. Each entry provides key attributes such as the title, content type, description, release year, age certification, runtime, IMDb ID, IMDb score, and number of votes.
+
+General Information:
+The dataset contains 5283 entries with 11 columns.
+
+The columns are:
+
+index: An integer index.
+
+id: A unique identifier for each content item.
+
+title: The title of the movie/show.
+
+type: The type of content (MOVIE or SHOW).
+
+description: A brief description of the content.
+
+release_year: The year the movie/show was released.
+
+age_certification: Age certification (e.g., R, PG, TV-14).
+
+runtime: The runtime of the content in minutes.
+
+imdb_id: IMDb identifier for the content.
+
+imdb_score: IMDb rating for the content.
+
+imdb_votes: The number of IMDb votes for the content.
+
+🎯 Main Objectives of the Dataset
+1. 📊 Content Overview and Distribution
+Understand the breakdown of content: Movies vs. TV Shows
+
+Analyze content distribution over the years
+
+Examine release trends: Which years or periods had more releases?
+
+2. 🌍 Regional and Certification Insights
+Analyze content by country of origin.
+
+Identify most common age certifications across content.
+
+Understand regional differences in movie/show types and certifications.
+
+3. ⭐ Ratings and Popularity
+Explore the IMDB ratings distribution across Movies/Shows.
+
+Identify top-rated content.
+
+Compare average rating and number of votes by genre, country, or year.
+
+4. 🕐 Content Duration Analysis
+Understand the typical duration of content.
+
+Identify outliers (very long/very short content).
+
+For shows, estimate and compare number of episodes or seasons (if applicable).
+
+5. 🔍 Genre and Theme Insights
+Extract and analyze popular genres (from listed_in or similar column).
+
+See which genres dominate in different time periods or regions.
+
+6. 🎬 Director and Actor Analysis
+Find most frequent directors and their top content.
+
+Identify popular actors/actresses (if cast column exists).
+
+Explore collaborations or patterns in casting.
+
+7. 🕵️ Recommendation-Driven Objectives
+Identify similar titles based on genre, rating, and release year.
+
+Create a basic content recommendation engine (e.g., "If you like X, you may like Y").
+
+8. 🚩 Data Quality & Cleaning Objectives
+Handle missing data (e.g., age_certification, imdb_votes, description).
+
+Normalize genres, convert duration types, and fix inconsistent entries.
+
+9. 📈 Business & Product Objectives
+Help Netflix understand:
+
+What types of content users are likely to rate higher
+
+Which countries produce highly-rated or frequently watched content
+
+What types of shows/movies should be invested in or promoted
